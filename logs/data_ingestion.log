@@ -1,0 +1,8 @@
+2025-11-10 15:33:47,962 - data_ingestion - ERROR - File not found: params.yaml
+2025-11-10 15:33:47,963 - data_ingestion - ERROR - Failed to complete the data ingestion process: [Errno 2] No such file or directory: 'params.yaml'
+2025-11-10 15:36:52,265 - data_ingestion - WARNING - params.yaml not found at D:\mlops\Mlops-complete-ml-pipeline\params.yaml; using default test_size=0.2
+2025-11-10 15:36:53,184 - data_ingestion - DEBUG - Data loaded from https://raw.githubusercontent.com/vikashishere/Datasets/main/spam.csv (shape=(5572, 5))
+2025-11-10 15:36:53,204 - data_ingestion - DEBUG - Data preprocessing completed (columns=['target', 'text'], shape=(5572, 2))
+2025-11-10 15:36:53,208 - data_ingestion - DEBUG - Data split into train/test with test_size=0.2 (train=(4457, 2), test=(1115, 2))
+2025-11-10 15:36:53,267 - data_ingestion - DEBUG - Train and test data saved to D:\mlops\Mlops-complete-ml-pipeline\data\raw
+2025-11-10 15:36:53,268 - data_ingestion - INFO - Data ingestion completed successfully.

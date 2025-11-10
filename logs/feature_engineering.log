@@ -1,0 +1,9 @@
+2025-11-10 15:48:14,671 - feature_engineering - WARNING - params.yaml not found; using default configuration.
+2025-11-10 15:48:14,717 - feature_engineering - DEBUG - Data loaded from D:\mlops\Mlops-complete-ml-pipeline\data\interim\train_processed.csv (shape=(4152, 2))
+2025-11-10 15:48:14,760 - feature_engineering - DEBUG - Data loaded from D:\mlops\Mlops-complete-ml-pipeline\data\interim\test_processed.csv (shape=(1101, 2))
+2025-11-10 15:48:14,935 - feature_engineering - DEBUG - TF-IDF applied: max_features=5000, ngram_range=(1,1), use_idf=True, norm=l2, stop_words=None
+2025-11-10 15:48:14,935 - feature_engineering - DEBUG - Shapes -> train: (4152, 5001), test: (1101, 5001)
+2025-11-10 15:48:34,645 - feature_engineering - DEBUG - Saved D:\mlops\Mlops-complete-ml-pipeline\data\processed\train_tfidf.csv
+2025-11-10 15:48:42,155 - feature_engineering - DEBUG - Saved D:\mlops\Mlops-complete-ml-pipeline\data\processed\test_tfidf.csv
+2025-11-10 15:48:42,335 - feature_engineering - DEBUG - Vectorizer saved to D:\mlops\Mlops-complete-ml-pipeline\artifacts\vectorizer.joblib
+2025-11-10 15:48:42,335 - feature_engineering - INFO - Feature engineering completed successfully.

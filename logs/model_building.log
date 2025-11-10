@@ -1,0 +1,8 @@
+2025-11-10 15:52:56,273 - model_building - WARNING - params.yaml not found at D:\mlops\Mlops-complete-ml-pipeline\params.yaml; using default configuration.
+2025-11-10 15:53:01,873 - model_building - DEBUG - Data loaded from D:\mlops\Mlops-complete-ml-pipeline\data\processed\train_tfidf.csv with shape (4152, 5001)
+2025-11-10 15:53:03,202 - model_building - DEBUG - Features dtype coerced to numeric. Final shapes -> X: (4152, 5000), y: (4152,)
+2025-11-10 15:53:03,223 - model_building - DEBUG - Initializing RandomForest with n_estimators=200, random_state=42
+2025-11-10 15:53:03,224 - model_building - DEBUG - Model training started with 4152 samples
+2025-11-10 15:53:15,257 - model_building - DEBUG - Model training completed
+2025-11-10 15:53:15,308 - model_building - DEBUG - Model saved to D:\mlops\Mlops-complete-ml-pipeline\models\model.pkl
+2025-11-10 15:53:15,310 - model_building - INFO - Model building completed successfully. Saved to D:\mlops\Mlops-complete-ml-pipeline\models\model.pkl

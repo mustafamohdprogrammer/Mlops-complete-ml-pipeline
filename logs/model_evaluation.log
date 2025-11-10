@@ -1,0 +1,6 @@
+2025-11-10 16:00:05,583 - model_evaluation - WARNING - params.yaml not found. Continuing with default settings.
+2025-11-10 16:00:05,957 - model_evaluation - DEBUG - Model loaded from D:\mlops\Mlops-complete-ml-pipeline\models\model.pkl
+2025-11-10 16:00:07,416 - model_evaluation - DEBUG - Data loaded: D:\mlops\Mlops-complete-ml-pipeline\data\processed\test_tfidf.csv Shape=(1101, 5001)
+2025-11-10 16:00:08,107 - model_evaluation - DEBUG - Evaluation metrics computed successfully.
+2025-11-10 16:00:13,369 - model_evaluation - DEBUG - Metrics saved to D:\mlops\Mlops-complete-ml-pipeline\reports\metrics.json
+2025-11-10 16:00:13,371 - model_evaluation - INFO - ✅ Model evaluation completed successfully.
