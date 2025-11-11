@@ -8,7 +8,7 @@ feature_engineering:
   max_features: 5000
 model_building:
   n_estimators: 200
-  random_state: 42
+  random_state: 100
 evaluation:
   average: binary
   pos_label: 1

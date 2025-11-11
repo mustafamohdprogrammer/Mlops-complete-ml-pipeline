@@ -9,7 +9,7 @@ feature_engineering:
 
 model_building:
   n_estimators: 200
-  random_state: 42
+  random_state: 100
 
 evaluation:
   average: "binary"

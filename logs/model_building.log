@@ -24,3 +24,21 @@
 2025-11-11 15:57:33,254 - model_building - DEBUG - Model training completed
 2025-11-11 15:57:33,306 - model_building - DEBUG - Model saved to D:\mlops\Mlops-complete-ml-pipeline\models\model.pkl
 2025-11-11 15:57:33,306 - model_building - INFO - Model building completed successfully. Saved to D:\mlops\Mlops-complete-ml-pipeline\models\model.pkl
+2025-11-11 16:14:33,085 - model_building - DEBUG - Parameters retrieved from D:\mlops\Mlops-complete-ml-pipeline\params.yaml
+2025-11-11 16:14:33,086 - model_building - DEBUG - Config resolved from params.yaml with overrides.
+2025-11-11 16:14:38,960 - model_building - DEBUG - Data loaded from D:\mlops\Mlops-complete-ml-pipeline\data\processed\train_tfidf.csv with shape (4670, 5001)
+2025-11-11 16:14:40,221 - model_building - DEBUG - Features dtype coerced to numeric. Final shapes -> X: (4670, 5000), y: (4670,)
+2025-11-11 16:14:40,243 - model_building - DEBUG - Initializing RandomForest with n_estimators=200, random_state=52
+2025-11-11 16:14:40,244 - model_building - DEBUG - Model training started with 4670 samples
+2025-11-11 16:14:59,193 - model_building - DEBUG - Model training completed
+2025-11-11 16:14:59,280 - model_building - DEBUG - Model saved to D:\mlops\Mlops-complete-ml-pipeline\models\model.pkl
+2025-11-11 16:14:59,282 - model_building - INFO - Model building completed successfully. Saved to D:\mlops\Mlops-complete-ml-pipeline\models\model.pkl
+2025-11-11 16:18:14,057 - model_building - DEBUG - Parameters retrieved from D:\mlops\Mlops-complete-ml-pipeline\params.yaml
+2025-11-11 16:18:14,058 - model_building - DEBUG - Config resolved from params.yaml with overrides.
+2025-11-11 16:18:22,692 - model_building - DEBUG - Data loaded from D:\mlops\Mlops-complete-ml-pipeline\data\processed\train_tfidf.csv with shape (4152, 5001)
+2025-11-11 16:18:25,021 - model_building - DEBUG - Features dtype coerced to numeric. Final shapes -> X: (4152, 5000), y: (4152,)
+2025-11-11 16:18:25,044 - model_building - DEBUG - Initializing RandomForest with n_estimators=200, random_state=100
+2025-11-11 16:18:25,046 - model_building - DEBUG - Model training started with 4152 samples
+2025-11-11 16:18:43,646 - model_building - DEBUG - Model training completed
+2025-11-11 16:18:43,827 - model_building - DEBUG - Model saved to D:\mlops\Mlops-complete-ml-pipeline\models\model.pkl
+2025-11-11 16:18:43,842 - model_building - INFO - Model building completed successfully. Saved to D:\mlops\Mlops-complete-ml-pipeline\models\model.pkl

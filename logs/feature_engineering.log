@@ -27,3 +27,13 @@
 2025-11-11 15:57:12,531 - feature_engineering - DEBUG - Saved D:\mlops\Mlops-complete-ml-pipeline\data\processed\test_tfidf.csv
 2025-11-11 15:57:12,698 - feature_engineering - DEBUG - Vectorizer saved to D:\mlops\Mlops-complete-ml-pipeline\artifacts\vectorizer.joblib
 2025-11-11 15:57:12,699 - feature_engineering - INFO - Feature engineering completed successfully.
+2025-11-11 16:13:58,650 - feature_engineering - DEBUG - Parameters retrieved from D:\mlops\Mlops-complete-ml-pipeline\params.yaml
+2025-11-11 16:13:58,651 - feature_engineering - DEBUG - Config resolved from params.yaml with overrides.
+2025-11-11 16:13:58,661 - feature_engineering - DEBUG - Data loaded from D:\mlops\Mlops-complete-ml-pipeline\data\interim\train_processed.csv (shape=(4670, 2))
+2025-11-11 16:13:58,669 - feature_engineering - DEBUG - Data loaded from D:\mlops\Mlops-complete-ml-pipeline\data\interim\test_processed.csv (shape=(552, 2))
+2025-11-11 16:13:58,854 - feature_engineering - DEBUG - TF-IDF applied: max_features=5000, ngram_range=(1,1), use_idf=True, norm=l2, stop_words=None
+2025-11-11 16:13:58,855 - feature_engineering - DEBUG - Shapes -> train: (4670, 5001), test: (552, 5001)
+2025-11-11 16:14:24,740 - feature_engineering - DEBUG - Saved D:\mlops\Mlops-complete-ml-pipeline\data\processed\train_tfidf.csv
+2025-11-11 16:14:27,176 - feature_engineering - DEBUG - Saved D:\mlops\Mlops-complete-ml-pipeline\data\processed\test_tfidf.csv
+2025-11-11 16:14:27,305 - feature_engineering - DEBUG - Vectorizer saved to D:\mlops\Mlops-complete-ml-pipeline\artifacts\vectorizer.joblib
+2025-11-11 16:14:27,305 - feature_engineering - INFO - Feature engineering completed successfully.

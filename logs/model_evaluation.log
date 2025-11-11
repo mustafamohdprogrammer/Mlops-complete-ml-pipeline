@@ -10,3 +10,15 @@
 2025-11-11 15:58:37,123 - model_evaluation - DEBUG - Evaluation metrics computed successfully.
 2025-11-11 15:58:37,922 - model_evaluation - DEBUG - Metrics saved to D:\mlops\Mlops-complete-ml-pipeline\reports\metrics.json
 2025-11-11 15:58:37,922 - model_evaluation - INFO - ✅ Model evaluation completed successfully.
+2025-11-11 16:15:04,463 - model_evaluation - DEBUG - Parameters loaded from params.yaml
+2025-11-11 16:15:04,820 - model_evaluation - DEBUG - Model loaded from D:\mlops\Mlops-complete-ml-pipeline\models\model.pkl
+2025-11-11 16:15:05,665 - model_evaluation - DEBUG - Data loaded: D:\mlops\Mlops-complete-ml-pipeline\data\processed\test_tfidf.csv Shape=(552, 5001)
+2025-11-11 16:15:05,886 - model_evaluation - DEBUG - Evaluation metrics computed successfully.
+2025-11-11 16:15:07,017 - model_evaluation - DEBUG - Metrics saved to D:\mlops\Mlops-complete-ml-pipeline\reports\metrics.json
+2025-11-11 16:15:07,017 - model_evaluation - INFO - ✅ Model evaluation completed successfully.
+2025-11-11 16:18:54,012 - model_evaluation - DEBUG - Parameters loaded from params.yaml
+2025-11-11 16:18:55,289 - model_evaluation - DEBUG - Model loaded from D:\mlops\Mlops-complete-ml-pipeline\models\model.pkl
+2025-11-11 16:18:59,637 - model_evaluation - DEBUG - Data loaded: D:\mlops\Mlops-complete-ml-pipeline\data\processed\test_tfidf.csv Shape=(1101, 5001)
+2025-11-11 16:19:00,313 - model_evaluation - DEBUG - Evaluation metrics computed successfully.
+2025-11-11 16:19:03,102 - model_evaluation - DEBUG - Metrics saved to D:\mlops\Mlops-complete-ml-pipeline\reports\metrics.json
+2025-11-11 16:19:03,151 - model_evaluation - INFO - ✅ Model evaluation completed successfully.
