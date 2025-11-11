@@ -138,7 +138,7 @@ def main() -> None:
         # Try to read test_size from params.yaml; fallback to 0.2 if not present/missing
         if params_file.exists():
             params = load_params(params_file)
-            test_size = float(params.get("data_ingestion", {}).get("test_size", 0.2))
+            test_size = float(params.get("data_ingestion", {}).get("test_size", 0.21))
         else:
             logger.warning("params.yaml not found at %s; using default test_size=0.2", params_file)
             test_size = 0.2

@@ -1,14 +1,16 @@
 data_ingestion:
   test_size: 0.2
   random_state: 2
-  source_url: 
-    https://raw.githubusercontent.com/vikashishere/Datasets/main/spam.csv
-  encoding: latin-1
+  source_url: "https://raw.githubusercontent.com/vikashishere/Datasets/main/spam.csv"
+  encoding: "latin-1"
+
 feature_engineering:
   max_features: 5000
+
 model_building:
   n_estimators: 200
   random_state: 42
+
 evaluation:
-  average: binary
+  average: "binary"
   pos_label: 1
